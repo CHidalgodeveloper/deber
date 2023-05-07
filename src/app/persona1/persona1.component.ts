@@ -7,18 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Persona1Component {
 
-  data: any=[
-  {
-    nombre: "juan",
-    profesion: "medico",
-    edad: 30,
-    genero: "m"
-  },
-  {
-    nombre:"ana",
-    profesion: "enfermera",
-    edad: 25
-  }
-]
+  data: any="https://api.sampleapis.com/futurama/characters"
 
 }
